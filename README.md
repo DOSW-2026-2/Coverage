@@ -1039,7 +1039,7 @@ Entregar por Teams:
 
 Antes de entregar, valide:
 
-- [ ] El proyecto usa Java 17.
+- [ ] El proyecto usa Java 21.
 - [ ] JUnit 5 está configurado.
 - [ ] Existen pruebas para `addDrone`.
 - [ ] Existen pruebas para `assignMission`.
