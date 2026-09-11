@@ -1004,34 +1004,17 @@ La nueva regla debe incluir:
 
 ---
 
-# PARTE 2 - PROYECTO DEL CURSO
-
-Tomando como referencia las historias de usuario y los documentos de requerimientos del proyecto del SQUAD:
-
-1. Realice o actualice el **diagrama de clases** del proyecto.
-2. Seleccione las tareas técnicas asociadas al primer sprint que contengan lógica de negocio comprobable mediante pruebas unitarias.
-3. Construya primero los esqueletos de las clases necesarias.
-4. Aplique TDD a esas tareas siguiendo RED -> GREEN -> REFACTOR.
-5. Integre JaCoCo y mida la cobertura del código desarrollado.
-6. Ejecute análisis estático con SonarQube.
-7. Documente las evidencias en el `README.md` del proyecto.
-
-> No es necesario forzar TDD sobre código puramente visual, configuración trivial o clases sin comportamiento. Concéntrese en lógica que pueda verificarse de forma determinística.
-
----
-
 # 12. ENTREGABLES
 
 Entregar por Teams:
 
-- URL del repositorio del laboratorio;
-- acceso al repositorio para la profesora;
-- `README.md` completo con evidencias;
-- Pull Requests revisados;
-- pruebas ejecutándose correctamente;
-- cobertura JaCoCo >= 85%;
-- análisis SonarQube;
-- Parte 2 documentada en el espacio definido para la siguiente sesión.
+- URL del repositorio del laboratorio.
+- Acceso al repositorio para la profesora.
+- `README.md` completo con evidencias.
+- Pull Requests comentados y revisados.
+- Pruebas ejecutándose correctamente.
+- Cobertura JaCoCo >= 85%.
+- Análisis SonarQube.
 
 ---
 
@@ -1050,8 +1033,6 @@ Antes de entregar, valide:
 - [ ] La cobertura de líneas es >= 85%.
 - [ ] El reporte JaCoCo está documentado.
 - [ ] SonarQube analiza el proyecto.
-- [ ] El Quality Gate está documentado.
-- [ ] No existen tokens ni contraseñas dentro del repositorio.
 - [ ] Los cambios importantes llegaron a `develop` mediante PR.
 - [ ] Los PR fueron revisados por otra persona.
 - [ ] El `README.md` contiene evidencias y reflexión técnica.
